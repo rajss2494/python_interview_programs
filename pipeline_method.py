@@ -1,4 +1,5 @@
-"""As part of a data processing pipeline, complete the implementation of the pipeline method:
+"""As part of a data processing pipeline, complete the implementation of
+   the pipeline method:
 
     The pipeline method should accept a variable number of functions and
     return a new function that accepts one parameter (arg). The returned
@@ -14,6 +15,7 @@
     resuShould return: 5
 
 """
+
 
 def pipeline(*func):
     def wrapper(arg):
